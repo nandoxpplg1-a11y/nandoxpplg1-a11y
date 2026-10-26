@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:1E90FF,50:00BFFF,100:A0E7FF&height=230&section=header&text=Hai%2C%20aku%20%5BNamaMu%5D!&fontSize=48&fontColor=ffffff&animation=twinkling&fontAlignY=42&desc=ngoding%20santai%2C%20ngopi%20juga%20santai%20%E2%98%95&descAlignY=65&descSize=18" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:1E90FF,50:00BFFF,100:A0E7FF&height=230&section=header&text=Hai%2C%20aku%20%5BVernando Wahyu Prastiyo%5D!&fontSize=48&fontColor=ffffff&animation=twinkling&fontAlignY=42&desc=ngoding%20santai%2C%20ngopi%20juga%20santai%20%E2%98%95&descAlignY=65&descSize=18" width="100%" />
 
 <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="35px" /> 
 
