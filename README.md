@@ -20,7 +20,7 @@
 
 ## 🫧 Kenalan dulu yuk
 
-Aku **[NamaMu]**, seseorang yang suka bikin sesuatu dari nol, dari yang kecil-kecil sampai yang agak ambisius. Kadang berhasil, kadang error, tapi selalu belajar dari keduanya. 😄
+Aku **[Vernando Wahyu Prastiyo]**, seseorang yang suka bikin sesuatu dari nol, dari yang kecil-kecil sampai yang agak ambisius. Kadang berhasil, kadang error, tapi selalu belajar dari keduanya. 😄
 
 > 💭 *"Bikin dulu, rapihin belakangan."*
 
