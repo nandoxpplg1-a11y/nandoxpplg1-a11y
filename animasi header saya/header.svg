@@ -1,0 +1,69 @@
+<svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B3D91"/>
+      <stop offset="0.5" stop-color="#1E90FF"/>
+      <stop offset="1" stop-color="#7DD3FC"/>
+      <animate attributeName="x1" values="0;0.3;0" dur="10s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="round"><rect width="900" height="260" rx="24"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="900" height="260" fill="url(#bg)"/>
+
+    <!-- cahaya berkilau yang lewat -->
+    <rect x="-200" y="0" width="160" height="260" fill="url(#shine)" transform="skewX(-20)">
+      <animate attributeName="x" values="-300;1100" dur="6s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- bintang kecil berkelip -->
+    <g fill="#fff">
+      <circle cx="120" cy="50" r="2"><animate attributeName="opacity" values="0.1;1;0.1" dur="2.4s" repeatCount="indefinite"/></circle>
+      <circle cx="260" cy="30" r="1.5"><animate attributeName="opacity" values="0.1;1;0.1" dur="3s" begin="0.6s" repeatCount="indefinite"/></circle>
+      <circle cx="430" cy="42" r="2"><animate attributeName="opacity" values="0.1;1;0.1" dur="2.8s" begin="1s" repeatCount="indefinite"/></circle>
+      <circle cx="640" cy="34" r="1.8"><animate attributeName="opacity" values="0.1;1;0.1" dur="2.2s" begin="0.3s" repeatCount="indefinite"/></circle>
+      <circle cx="780" cy="62" r="2.2"><animate attributeName="opacity" values="0.1;1;0.1" dur="3.2s" begin="1.4s" repeatCount="indefinite"/></circle>
+      <circle cx="840" cy="28" r="1.5"><animate attributeName="opacity" values="0.1;1;0.1" dur="2.6s" begin="0.9s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- gelembung naik -->
+    <g fill="#fff" fill-opacity="0.22" stroke="#fff" stroke-opacity="0.5">
+      <circle cx="90" cy="280" r="10"><animate attributeName="cy" values="290;-20" dur="9s" repeatCount="indefinite"/></circle>
+      <circle cx="210" cy="280" r="6"><animate attributeName="cy" values="290;-20" dur="7s" begin="1.5s" repeatCount="indefinite"/></circle>
+      <circle cx="350" cy="280" r="12"><animate attributeName="cy" values="290;-20" dur="11s" begin="0.5s" repeatCount="indefinite"/></circle>
+      <circle cx="520" cy="280" r="7"><animate attributeName="cy" values="290;-20" dur="8s" begin="2.5s" repeatCount="indefinite"/></circle>
+      <circle cx="690" cy="280" r="11"><animate attributeName="cy" values="290;-20" dur="10s" begin="1s" repeatCount="indefinite"/></circle>
+      <circle cx="810" cy="280" r="8"><animate attributeName="cy" values="290;-20" dur="7.5s" begin="3s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- teks utama -->
+    <g text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif">
+      <text x="450" y="112" font-size="50" font-weight="700" fill="#ffffff" opacity="0">
+        Hai, aku [NamaMu]! 👋
+        <animate attributeName="opacity" from="0" to="1" dur="1.2s" fill="freeze"/>
+        <animate attributeName="y" from="132" to="112" dur="1.2s" fill="freeze"/>
+      </text>
+      <text x="450" y="155" font-size="20" fill="#E0F4FF" opacity="0">
+        ngoding santai, ngopi juga santai ☕
+        <animate attributeName="opacity" from="0" to="1" dur="1.2s" begin="0.8s" fill="freeze"/>
+      </text>
+    </g>
+
+    <!-- ombak belakang -->
+    <path fill="#ffffff" fill-opacity="0.25"
+          d="M0 205 Q112.5 175 225 205 T450 205 T675 205 T900 205 T1125 205 T1350 205 T1575 205 T1800 205 V260 H0 Z">
+      <animateTransform attributeName="transform" type="translate" from="-900 0" to="0 0" dur="9s" repeatCount="indefinite"/>
+    </path>
+    <!-- ombak depan -->
+    <path fill="#ffffff" fill-opacity="0.45"
+          d="M0 225 Q112.5 195 225 225 T450 225 T675 225 T900 225 T1125 225 T1350 225 T1575 225 T1800 225 V260 H0 Z">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-900 0" dur="6s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>
